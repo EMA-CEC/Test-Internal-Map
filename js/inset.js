@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     L.tileLayer(
-      "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+      "https://a.tile.opentopomap.org/{z}/{x}/{y}.png",
       { subdomains: "abcd", maxZoom: 19 }
     ).addTo(insetMap);
 
